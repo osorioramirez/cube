@@ -1,0 +1,19 @@
+{
+  "name": "arrelament",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:ts": "tslint -c tslint.json --project tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.2.1",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.1",
+    "webpack": "^3.2.0"
+  }
+}
